@@ -105,7 +105,7 @@ const Home = () => {
             often portraying the worst-case scenario for their child, and
             healthcare provider awareness remains low (Bourke et al., 2014).
           </p>
-          <p className="text-[13px] sm:text-[18px] font-light font__primary text-black py-4 lg:py-2 border-b border-t lg:border-l lg:border-r border-[#6931AA] lg:px-6">
+          <p className="text-[13px] sm:text-[18px] font-light font__primary text-black py-4 lg:py-2 border-b border-t lg:border-b-0 lg:border-t-0 border-l-0 border-r-0 lg:border-l lg:border-r border-[#6931AA] lg:px-6">
             <span className=" font-semibold ">
               Multidisciplinary care is the preferred choice
             </span>{" "}
