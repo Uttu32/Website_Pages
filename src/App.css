@@ -10,3 +10,10 @@
   background: linear-gradient(90deg, #8a3299 37.65%, #e13369 100%);
   border-radius: 7px 7px 0px 0px;
 }
+.gradient__background {
+  background: linear-gradient(90deg, #8a3299 37.65%, #e13369 100%);
+  border-radius: 10px;
+}
+.footer__gradient {
+  background: linear-gradient(90deg, #8a3299 37.65%, #e13369 100%);
+}
