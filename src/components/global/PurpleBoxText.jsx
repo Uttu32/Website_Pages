@@ -11,10 +11,10 @@ const PurpleBoxText = ({ img, title, subtitle, Style, height }) => {
         <img src={img} alt="purple-1" width={244} height={244} />
       </div>
       <div className="font__secondary text-white text-center sm:text-left">
-        <h2 className="text-lg lg:text-xl min-[1100px]:text-2xl xl:text-3xl min-[1368px]:text-[33px] font-medium overflow-hidden">
+        <h2 className="text-lg lg:text-xl min-[1100px]:text-2xl xl:text-3xl min-[1368px]:text-[33px] font-medium overflow-hidden pb-1">
           {title}
         </h2>
-        <p className="text-xl lg:text-2xl min-[1100px]:text-3xl xl:text-4xl min-[1368px]:text-[40px] font-bold underline uppercase overflow-hidden">
+        <p className="text-xl lg:text-2xl min-[1100px]:text-3xl xl:text-4xl min-[1368px]:text-[40px] font-bold underline uppercase overflow-hidden  pt-1">
           {subtitle}
         </p>
       </div>
