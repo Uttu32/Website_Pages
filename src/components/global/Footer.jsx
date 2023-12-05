@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer__gradient  py-4 px-6 text-center">
+    <div className="footer__gradient  py-4 px-3 sm:px-6 text-center mt-10">
       <div className="flex text-white font-medium font__primary text-[14px]  md:text-[16px] lg:text-[23px] justify-center  gap-2 sm:flex-row flex-col">
         <a href="#!" className="underline">
           Donate through the Paypal Giving Fund

@@ -1,9 +1,11 @@
 import React from "react";
 
-const PurpleBoxText = ({ img, title, subtitle, Style }) => {
+const PurpleBoxText = ({ img, title, subtitle, Style, height }) => {
   return (
     <div
-      className={`bg-[#6931AA] px-5 md:px-[70px] flex-col sm:flex-row flex items-center sm:max-h-[145px] py-4 sm:py-0 mb-8 sm:mb-40  sm:overflow-visible gap-5 ${Style}`}
+      className={`bg-[#6931AA] px-5 md:px-[70px] flex-col sm:flex-row flex items-center ${
+        height ? height : "sm:max-h-[145px]"
+      }  py-4 sm:py-0 mb-8 sm:mb-40  sm:overflow-visible gap-5 ${Style}`}
     >
       <div className="pl-2 md:pl-10">
         <img src={img} alt="purple-1" width={244} height={244} />

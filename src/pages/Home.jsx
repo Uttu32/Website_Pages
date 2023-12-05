@@ -12,6 +12,7 @@ import PurposeTable from "../components/Home/PurposeTable";
 import BlockTitle from "../components/global/BlockTitle";
 import Footer from "../components/global/Footer";
 import GradientText from "../components/global/GradientText";
+import LightPinkBox from "../components/global/LightPinkBox";
 import ListText from "../components/global/ListText";
 import Normal from "../components/global/Normal";
 import PageTitle from "../components/global/PageTitle";
@@ -29,7 +30,7 @@ const Home = () => {
   return (
     <div>
       <PageTitle title="The ABCs of Chromodiversity" />
-      <BlockTitle id="A" title="What is Chromodiversity?" />
+      <BlockTitle id="A." title="What is Chromodiversity?" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24">
           <div>
@@ -73,7 +74,7 @@ const Home = () => {
         subtitle="GROWING UP WITH TOBY IN AUSTRALIA"
         img={PurpleImg1}
       />
-      <BlockTitle id="B" title="Chromodiversity™ for Families" />
+      <BlockTitle id="B." title="Chromodiversity™ for Families" />
 
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24">
@@ -125,14 +126,9 @@ const Home = () => {
           </p>
         </div>
 
-        <p className="bg-[#F4E8FF] text-[#3E0085] font__primary text-base sm:text-xl font-medium rounded-xl text-center px-4 sm:px-20 py-4 mb-5">
-          The goal of{" "}
-          <span className="font-bold">Chromodiversity™ for Families</span> is to
-          deliver gold standard tools to parents and professionals in a smarter,
-          faster, and more accessible way
-        </p>
+        <LightPinkBox />
 
-        <GradientText title="If you are not already a Chromodiversity™ user, click here to join waitlist (free for families)" />
+        <GradientText />
       </div>
 
       <PurpleBoxText
@@ -141,7 +137,7 @@ const Home = () => {
         img={PurpleImg2}
       />
 
-      <BlockTitle id="C" title="Who We Are" />
+      <BlockTitle id="C." title="Who We Are" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
         <div className="flex justify-between items-center flex-col sm:flex-row gap-5">
           <div className="w-full sm:w-[50%] bg-white rounded-lg border border-[#6931AA] py-2 px-4 sm:px-10">

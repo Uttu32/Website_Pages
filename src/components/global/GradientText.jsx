@@ -1,9 +1,10 @@
 import React from "react";
 
-const GradientText = ({ title }) => {
+const GradientText = () => {
   return (
     <p className="gradient__background font__secondary text-base sm:text-2xl font-medium text-white py-3 px-4 sm:px-6 text-center mb-4 md:mb-0">
-      {title}
+      If you are not already a Chromodiversity™ user, click here to join
+      waitlist (free for families)
     </p>
   );
 };
