@@ -1,5 +1,6 @@
 import React from "react";
 import Img1 from "../assets/needs/img-1.png";
+import Img2 from "../assets/needs/img-2.png";
 import PurpleImg1 from "../assets/needs/purpleimg1.png";
 import PurpleImg2 from "../assets/needs/purpleimg2.png";
 import BlockTitle from "../components/global/BlockTitle";
@@ -126,7 +127,7 @@ const EducationalNeeds = () => {
       </div>
       <BlockTitle title="3 RECOMMENDATIONS FOR TEACHERS" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] ">
-        <NormalLinkText Style="text-base sm:text-2xl font-medium sm:leading-[34px]">
+        <NormalLinkText Style="text-base sm:text-2xl font-normal sm:leading-[34px]">
           1.{" "}
           <span className="font-semibold ">
             Develop a robust family-school partnership.
@@ -137,6 +138,53 @@ const EducationalNeeds = () => {
           information document, allowing open communication as needed, and to
           the level of parent comfort.
         </NormalLinkText>
+
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24 mt-6">
+          <div>
+            <NormalLinkText Style="text-base sm:text-2xl font-normal sm:leading-[34px]">
+              2.{" "}
+              <span className="font-semibold ">
+                Increase the collaboration between the school and the child’s
+                medical team.
+              </span>{" "}
+              Whenever possible, educators should partner and collaborate with
+              medical providers as part of the educational assessment process.
+              Both parties possess valuable information that could help inform a
+              child’s programming. School nurses and school psychologists can
+              act as liaisons, bridging the educational and medical systems to
+              enhance quality of care (Sheridan et al., 2009).
+            </NormalLinkText>
+            <NormalLinkText Style="text-base sm:text-2xl font-normal sm:leading-[34px]">
+              3.{" "}
+              <span className="font-semibold ">
+                Acknowledge the significant role genetic differences play in
+                educational experiences.
+              </span>{" "}
+              Schools may benefit from qualifying a child for special education
+              with an educational diagnosis that reflects the genetic diagnosis
+              - an underlying lifelong difference that will likely require
+              lifelong, ongoing support (Hodge & Asoela, 2019).
+            </NormalLinkText>
+          </div>
+          <div className="min-w-[306px]">
+            <img src={Img2} alt="home-1" width={306} height={440} />
+          </div>
+        </div>
+
+        <div className="sm:ml-5 ml-0">
+          <ListText
+            text="Research shows that children with learning differences such as dyslexia or ADHD are often labeled by teachers and parents as ‘lazy’ or ‘unintelligent’, especially prior to a diagnosis (Glazzard, 2010; Lundin, 2020; Thompson et al., 2015)."
+            Style="text-light"
+          />
+          <ListText
+            text="Specifying the genetic diagnosis in the special education plan might encourage a team to consider a student’s inattention, cognitive rigidity, fatigue, or trouble learning as part of a medical problem that warrants interventions and accommodations, rather than disobedience or a lack of motivation."
+            Style="text-light"
+          />
+          <ListText
+            text="Highlighting the medical diagnosis on a child’s educational support plan could help qualify younger students for early preventative support and dissuade educational teams from discontinuing support when the student makes progress."
+            Style="text-light"
+          />
+        </div>
       </div>
       <PurpleBoxText
         subtitle="PODCAST: 'I WISH THE SCHOOL HAD A BETTER UNDERSTANDING OF THE DIAGNOSIS'"
