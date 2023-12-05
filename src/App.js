@@ -4,6 +4,7 @@ import Footer from "./components/global/Footer";
 import Navbar from "./components/global/Navbar";
 import Home from "./pages/Home";
 import Milestone from "./pages/Milestone";
+import PrenatalScreening from "./pages/PrenatalScreening";
 import Social from "./pages/Social";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/social" element={<Social />} />
           <Route path="/milestone" element={<Milestone />} />
+          <Route path="/screening" element={<PrenatalScreening />} />
         </Routes>
       </BrowserRouter>
       <Footer />
