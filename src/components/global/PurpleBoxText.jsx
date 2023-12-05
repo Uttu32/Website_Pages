@@ -4,10 +4,10 @@ const PurpleBoxText = ({ img, title, subtitle, Style, height }) => {
   return (
     <div
       className={`bg-[#6931AA] px-5 md:px-[70px] flex-col sm:flex-row flex items-center ${
-        height ? height : "sm:max-h-[145px]"
+        height ? height : "sm:h-[145px]"
       }  py-4 sm:py-0 mb-8 sm:mb-40  sm:overflow-visible gap-5 ${Style}`}
     >
-      <div className="pl-2 md:pl-10">
+      <div className="pl-2 md:pl-10 min-w-[244px]">
         <img src={img} alt="purple-1" width={244} height={244} />
       </div>
       <div className="font__secondary text-white text-center sm:text-left">
