@@ -6,6 +6,7 @@ import ListText from "../components/global/ListText";
 import Normal from "../components/global/Normal";
 import PageTitle from "../components/global/PageTitle";
 import SubTitle from "../components/global/SubTitle";
+import MiletoneTable from "../components/milestone/Table";
 
 const Milestone = () => {
   return (
@@ -49,6 +50,7 @@ const Milestone = () => {
           Style="text-base sm:text-[24px] font-medium"
         />
         {/* table */}
+        <MiletoneTable />
         <Normal
           title="Chromodiversity™ is currently evaluating research in order to develop an easy-to-use milestones tool for parents and professionals."
           Style={

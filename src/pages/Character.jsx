@@ -3,6 +3,10 @@ import Img1 from "../assets/character/img1.png";
 import PurpleImg1 from "../assets/character/purpleimg1.png";
 import PurpleImg2 from "../assets/character/purpleimg2.png";
 import PurpleImg3 from "../assets/character/purpleimg3.png";
+import TableFour from "../components/Character/TableFour";
+import TableOne from "../components/Character/TableOne";
+import TableThree from "../components/Character/TableThree";
+import TableTwo from "../components/Character/TableTwo";
 import BlockTitle from "../components/global/BlockTitle";
 import BoldList from "../components/global/BoldList";
 import GradientText from "../components/global/GradientText";
@@ -44,6 +48,7 @@ const Character = () => {
           Style="text-base sm:text-[23px] font-medium sm:leading-[34px] my-4"
         />
         {/* table-1 */}
+        <TableOne />
       </div>
       <BlockTitle
         title="POSITIVE PSYCHOLOGY AND CHARACTER STRENGTHS"
@@ -55,6 +60,7 @@ const Character = () => {
           Style="text-base sm:text-[22px] font-normal sm:leading-[34px] my-4"
         />
         {/* table-2 */}
+        <TableTwo />
       </div>
       <PurpleBoxText
         title="“For a long time, I believed that everything was my fault. And it crushed me. But it also built my resilience. Because I refused to be crushed.”"
@@ -72,6 +78,7 @@ const Character = () => {
           Style="text-base sm:text-[22px] font-medium sm:leading-[34px] my-4"
         />
         {/* table-3 */}
+        <TableThree />
         <p className="font__primary text-[#3E0085] text-[14px] sm:text-xl font-normal py-2 text-center">
           Although research is lacking due to the focus on limitations and
           pathologies, it is likely that many other genetic differences -
@@ -122,6 +129,7 @@ const Character = () => {
       <BlockTitle title="HOW TO PROMOTE STRENGTHS: 5 EXAMPLES" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] mb-20">
         {/* table-4 */}
+        <TableFour />
       </div>
       <BlockTitle title="WHAT TEACHERS NEED TO KNOW" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] mb-20">

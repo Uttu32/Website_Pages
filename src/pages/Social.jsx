@@ -2,6 +2,7 @@ import React from "react";
 import Img1 from "../assets/social/img1.png";
 import PurpleImg1 from "../assets/social/purple-1.png";
 import PurpleImg2 from "../assets/social/purple-2.png";
+import SocialTable from "../components/Social/Table";
 import BlockTitle from "../components/global/BlockTitle";
 import GradientText from "../components/global/GradientText";
 import LightPinkBox from "../components/global/LightPinkBox";
@@ -73,6 +74,7 @@ const Social = () => {
           title="For example, research suggests that some young children with X&Y variations tend to struggle more than their peers with facial emotion recognition. However, 15 minutes of neurocognitive training using a therapy program over a period of one month resulted in a reversion to the general population baseline (Bouw et al., 2022)."
           Style="sm:text-[23px] sm:leading-[34px] text-[15px]"
         />
+        <SocialTable />
       </div>
       <BlockTitle title="TAKEAWAY" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">

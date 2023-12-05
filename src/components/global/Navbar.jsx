@@ -3,10 +3,6 @@ import { Disclosure } from "@headlessui/react";
 import { HiMenu, HiX } from "react-icons/hi";
 import logo from "../../assets/logo.svg";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 const navList = [
   { name: "Social Emotional Development", link: "/social" },
   { name: "Signature & Character Strengths", link: "/signature" },

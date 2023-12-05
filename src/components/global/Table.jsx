@@ -1,4 +1,16 @@
 import React from "react";
+const listData = [
+  "ADHD",
+  "Autism",
+  "Dyslexia",
+  "Dyspraxia",
+  "OCD",
+  "Hyperlexia",
+  "Meares-Irlen",
+  "Sensory Processing (SPD)",
+  "Synesthesia",
+  "Tourette",
+];
 
 const Table = () => {
   return (
@@ -24,7 +36,7 @@ const Table = () => {
       </div>
       {/* 2nd */}
       <div className="border rounded-lg rounded-t-none border-t-0 border-[#6931AA]  flex items-center  font__primary text-black ">
-        <div className="w-[50%] px-2 min-[500px]:px-4 sm:px-8 pt-2 sm:pt-6 pb-2 border-r border-[#6931AA]">
+        <div className="w-[50%] px-2 min-[500px]:px-4 sm:px-8 pt-2 sm:pt-6 pb-2">
           <p className="text-[13px] min-[500px]:text-base sm:text-2xl font-normal py-2">
             <span className="font-semibold">More than 1 in 1000 people</span>
             <br /> X&Y chromosome variations, such as: Klinefelter, Turner,
@@ -45,7 +57,18 @@ const Table = () => {
             Angelman, Prader-Willi, Rett, Williams
           </p>
         </div>
-        <div className="w-[50%]"></div>
+        <div className="w-[50%] px-2 min-[500px]:px-4 sm:px-8 pt-2 sm:pt-6 pb-2 border-l border-[#6931AA] ">
+          {listData.map((item, index) => (
+            <p
+              key={index}
+              className={`font__primary  text-black text-[14px] sm:text-2xl before:w-[5px] before:h-[5px] leading-[34px] py-[2px] pl-6 relative before:absolute before:content-[''] sm:before:w-[7px] sm:before:h-[7px] before:top-[15px] sm:before:top-[13px] before:left-0 before:bg-black before:rounded-full  
+               "font-light" 
+            `}
+            >
+              {item}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
