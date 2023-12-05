@@ -3,7 +3,6 @@ import Img1 from "../assets/social/img1.png";
 import PurpleImg1 from "../assets/social/purple-1.png";
 import PurpleImg2 from "../assets/social/purple-2.png";
 import BlockTitle from "../components/global/BlockTitle";
-import Footer from "../components/global/Footer";
 import GradientText from "../components/global/GradientText";
 import LightPinkBox from "../components/global/LightPinkBox";
 import ListText from "../components/global/ListText";
@@ -91,8 +90,6 @@ const Social = () => {
         <LightPinkBox />
         <GradientText />
       </div>
-
-      <Footer />
     </div>
   );
 };

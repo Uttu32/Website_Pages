@@ -10,7 +10,6 @@ import PurpleImg2 from "../assets/home/purple-2.png";
 import PurpleImg3 from "../assets/home/purple-3.png";
 import PurposeTable from "../components/Home/PurposeTable";
 import BlockTitle from "../components/global/BlockTitle";
-import Footer from "../components/global/Footer";
 import GradientText from "../components/global/GradientText";
 import LightPinkBox from "../components/global/LightPinkBox";
 import ListText from "../components/global/ListText";
@@ -221,8 +220,6 @@ const Home = () => {
         humanity live on. In loving memory of Gary and his treasured son
         Michael.
       </p>
-
-      <Footer />
     </div>
   );
 };
