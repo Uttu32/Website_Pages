@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/global/Footer";
 import Navbar from "./components/global/Navbar";
+import EducationalNeeds from "./pages/EducationalNeeds";
 import Home from "./pages/Home";
 import Milestone from "./pages/Milestone";
 import PrenatalScreening from "./pages/PrenatalScreening";
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/needs" element={<EducationalNeeds />} />
           <Route path="/social" element={<Social />} />
           <Route path="/milestone" element={<Milestone />} />
           <Route path="/screening" element={<PrenatalScreening />} />
