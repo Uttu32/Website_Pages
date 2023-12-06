@@ -1,5 +1,6 @@
 import React from "react";
 import BlockTitle from "../components/global/BlockTitle";
+import BoldList from "../components/global/BoldList";
 import GradientText from "../components/global/GradientText";
 import LightPinkBox from "../components/global/LightPinkBox";
 import ListText from "../components/global/ListText";
@@ -26,8 +27,14 @@ const Milestone = () => {
           data is scarce (Tartaglia et al., 2023).
         </p>
 
-        <ListText text="Physical growth curve studies about chromosomal variations such as Down, Edward and Patau syndromes do exist (see for instance Anthropometric Charts for Infants with Trisomies 21, 18, or 13 Born between 22 Weeks Gestation and Term: The VON Charts (Boghossian et al., 2012). " />
-        <ListText text="However for most genetic differences, including both rare (e.g., Angelman, Prader-Willi, and DiGeorge) and common ones (e.g., Klinefelter and other X&Y variations), evidencebased neurodevelopment and behavior milestone charts are missing or incomplete. " />
+        <ListText
+          smallSize
+          text="Physical growth curve studies about chromosomal variations such as Down, Edward and Patau syndromes do exist (see for instance Anthropometric Charts for Infants with Trisomies 21, 18, or 13 Born between 22 Weeks Gestation and Term: The VON Charts (Boghossian et al., 2012). "
+        />
+        <ListText
+          smallSize
+          text="However for most genetic differences, including both rare (e.g., Angelman, Prader-Willi, and DiGeorge) and common ones (e.g., Klinefelter and other X&Y variations), evidencebased neurodevelopment and behavior milestone charts are missing or incomplete. "
+        />
       </div>
 
       <BlockTitle title="WHY THIS MATTERS" />
@@ -37,9 +44,23 @@ const Milestone = () => {
           Style="text-base sm:text-[23px] font-medium"
         />
         <div className="ml-0 sm:ml-8">
-          <ListText text="Equip genetic & primary care providers with visual tools to share information for new diagnoses." />
-          <ListText text="Help monitor development & guide treatments for the growing population of prenatally diagnosed infants." />
-          <ListText text="Allow parents to keep track of cut-off points in time when a therapy may be most beneficial." />
+          <BoldList Style="font-light">
+            <span className="font-semibold">
+              Equip genetic & primary care providers
+            </span>{" "}
+            with visual tools to share information for new diagnoses.
+          </BoldList>
+          <BoldList Style="font-light">
+            Help{" "}
+            <span className="font-semibold">
+              monitor development & guide treatments
+            </span>{" "}
+            for the growing population of prenatally diagnosed infants.
+          </BoldList>
+          <BoldList Style="font-light">
+            <span className="font-semibold">Allow parents to keep track</span>{" "}
+            of cut-off points in time when a therapy may be most beneficial.
+          </BoldList>
         </div>
       </div>
 

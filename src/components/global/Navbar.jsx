@@ -1,6 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 
 const navList = [
@@ -21,7 +22,7 @@ const Navbar = () => {
           <div className="max-w-7xl mx-auto px-4 min-[837px]:px-6 lg:px-8">
             <div className="flex min-[837px]:block justify-between min-[1134px]:h-16">
               <div className="flex justify-between items-center">
-                <a href="/">
+                <Link to="/">
                   <div className=" flex-shrink-0 flex items-center">
                     <img
                       className="block  h-14 w-auto"
@@ -32,12 +33,12 @@ const Navbar = () => {
                       About Chromodiversity
                     </span>
                   </div>
-                </a>
+                </Link>
                 <div className="hidden min-[837px]:ml-6 min-[837px]:grid min-[837px]:grid-cols-3 min-[837px]:justify-end min-[837px]:gap-x-8 min-[837px]:gap-y-1">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   {navList.map((item, index) => (
-                    <a
-                      href={item.link}
+                    <Link
+                      to={item.link}
                       className={`font__secondary text-[#6931AA] text-base font-semibold
                        text-right ${
                          index === 0 || index === 1 || index === 2
@@ -46,7 +47,7 @@ const Navbar = () => {
                        }`}
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>

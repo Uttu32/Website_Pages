@@ -8,7 +8,7 @@ const BlockTitle = ({ id, title, Style }) => {
       }`}
     >
       <span className="pr-3">{id}</span>
-      {title}
+      <span>{title}</span>
     </h3>
   );
 };

@@ -4,6 +4,7 @@ import PurpleImg1 from "../assets/social/purple-1.png";
 import PurpleImg2 from "../assets/social/purple-2.png";
 import SocialTable from "../components/Social/Table";
 import BlockTitle from "../components/global/BlockTitle";
+import BoldList from "../components/global/BoldList";
 import GradientText from "../components/global/GradientText";
 import LightPinkBox from "../components/global/LightPinkBox";
 import ListText from "../components/global/ListText";
@@ -23,7 +24,11 @@ const Social = () => {
         />
 
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 py-4">
-          <p className="font__primary text-black sm:text-2xl sm:leading-[34px] text-[15px] font-light  pl-0 sm:pl-10">
+          <p
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            className="font__primary text-black sm:text-2xl sm:leading-[34px] text-[15px] font-light  pl-0 sm:pl-10"
+          >
             Information for parents and caregivers who have completed the Social
             Emotional Development Survey. Adapted from{" "}
             <a href="#!">
@@ -34,7 +39,11 @@ const Social = () => {
             observations might not match your own experience or child’s genetic
             variation.
           </p>
-          <div className="min-w-[467px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[467px]"
+          >
             <img src={Img1} alt="home-1" width={467} height={263} />
           </div>
         </div>
@@ -49,13 +58,21 @@ const Social = () => {
         />
         <div className="sm:ml-8 ml-0 ">
           <ListText
+            smallSize
             text="Early monitoring of social and emotional development is especially important for children with a genetic variation associated with somewhat greater likelihoods of sensory and social emotional differences such as ADHD or autism. "
             Style="font-light"
           />
-          <ListText
-            text=" For example, difficulties in acquiring social and emotional milestones were found in some 1-year-old children with an extra X or Y chromosome, with 44% having vulnerabilities in the borderline or extremely low range, compared to typically developing children (Bouw et al., 2022)."
-            Style="font-light"
-          />
+          <BoldList Style="font-light">
+            For example,
+            <span className="font-light underline">
+              {" "}
+              difficulties in acquiring social and emotional milestones were
+              found in some 1-year-old children with an extra X or Y chromosome,
+            </span>{" "}
+            with 44% having vulnerabilities in the borderline or extremely low
+            range, compared to typically developing children (Bouw et al.,
+            2022).
+          </BoldList>
         </div>
       </div>
       <PurpleBoxText
@@ -65,7 +82,7 @@ const Social = () => {
         height="sm:max-h-[162px]"
       />
       <BlockTitle title="WHY THIS MATTERS" />
-      <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
+      <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] mb-20">
         <Normal
           title="Unaddressed social emotional development challenges in early childhood can result in a “domino” effect, leading to potentially avoidable, compounding lifelong issues. Early age monitoring and preventative support may protect against future social, emotional, behavioral, and cognitive challenges, even when there are no obvious signs of issues."
           Style="sm:text-[23px] sm:leading-[34px] text-[15px]"

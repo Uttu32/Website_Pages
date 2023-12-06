@@ -28,14 +28,33 @@ const PrenatalScreening = () => {
           Such challenges are compounded by a number of factors.
         </p>
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24 mt-6">
-          <div>
-            <ListText text="Low healthcare provider awareness and/or public misunderstanding of modern genetics." />
-            <ListText text="Exposure to confusing, misleading, or “worst case scenario” online information." />
-            <ListText text="Persistence of myths, like the belief that “genetics is destiny” and “nothing can be done.”" />
-            <ListText text="Shortage of genetic and psychological counselors for professional guidance and support." />
-            <ListText text="Lack of understanding about the role such professionals play in the “diagnostic journey.”" />
+          <div data-aos="flip-left" data-aos-duration="1000">
+            <ListText
+              smallSize
+              text="Low healthcare provider awareness and/or public misunderstanding of modern genetics."
+            />
+            <ListText
+              smallSize
+              text="Exposure to confusing, misleading, or “worst case scenario” online information."
+            />
+            <ListText
+              smallSize
+              text="Persistence of myths, like the belief that “genetics is destiny” and “nothing can be done.”"
+            />
+            <ListText
+              smallSize
+              text="Shortage of genetic and psychological counselors for professional guidance and support."
+            />
+            <ListText
+              smallSize
+              text="Lack of understanding about the role such professionals play in the “diagnostic journey.”"
+            />
           </div>
-          <div className="min-w-[399px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[399px]"
+          >
             <img src={Img1} alt="home-1" width={399} height={472} />
           </div>
         </div>
@@ -105,7 +124,11 @@ const PrenatalScreening = () => {
           title="The way in which genetic differences are discussed by medical professionals is of great importance. The choice of words and timing in delivering the prenatal diagnosis can have significant emotional repercussions. It is crucial that such information is accompanied by support and follow-ups, starting with a consultation with a qualified genetic counselor."
           Style="text-base sm:text-[23px] font-medium sm:leading-[34px]"
         />
-        <div className="flex justify-center items-center">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+          className="flex justify-center items-center"
+        >
           <img
             src={Img2}
             alt="health care"

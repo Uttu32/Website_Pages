@@ -32,7 +32,7 @@ const Home = () => {
       <BlockTitle id="A." title="What is Chromodiversity?" />
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24">
-          <div>
+          <div data-aos="flip-left" data-aos-duration="1000">
             <SubTitle
               title="FROM DEFICIT TO DIFFERENCE "
               size={"text-[20px] sm:text-[28px] underline"}
@@ -40,7 +40,11 @@ const Home = () => {
             <ListText text="Chromodiversity refers to genetic code differences. The term was introduced in 2022 as a way to depathologize the language of genetics at a time of increased prenatal screening and early diagnoses." />
             <ListText text="Just as ‘biodiversity’ refers to the diversity of life and ‘neurodiversity’ to the diversity of brains, chromodiversity is a way to talk about the diversity of human genetic codes in a natural way." />
           </div>
-          <div className="min-w-[307px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[307px]"
+          >
             <img src={Img1} alt="home-1" width={307} height={415} />
           </div>
         </div>
@@ -77,7 +81,7 @@ const Home = () => {
 
       <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24">
-          <div>
+          <div data-aos="flip-left" data-aos-duration="1000">
             <SubTitle
               title="A SCALABLE PLATFORM WHERE EVERYONE CAN SUCCEED"
               size={"text-[20px] sm:text-[28px]"}
@@ -91,7 +95,11 @@ const Home = () => {
               development for three reasons.
             </p>
           </div>
-          <div className="min-w-[307px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[307px]"
+          >
             <img src={Img2} alt="home-1" width={307} height={415} />
           </div>
         </div>
@@ -175,11 +183,19 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-24 pt-10 pb-20">
-          <div className="min-w-[307px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[307px]"
+          >
             <img src={Img3} alt="home-1" width={307} height={415} />
           </div>
 
-          <p className="font__primary text-black text-[15px] sm:text-[22px]  font-light">
+          <p
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            className="font__primary text-black text-[15px] sm:text-[22px]  font-light"
+          >
             <span className="font-semibold">Chromodiversity™</span> is a
             trademark of the nonprofit
             <br />{" "}
@@ -214,7 +230,7 @@ const Home = () => {
         img={PurpleImg3}
       />
 
-      <p className="font__primary text-[13px] sm:text-xl text-[#3E0085] font-normal px-[25px] sm:px-[40px] md:px-[70px] text-center pb-8 sm:pb-24">
+      <p className="font__primary text-[13px] sm:text-xl text-[#3E0085] font-normal px-[25px] sm:px-[40px] md:px-[70px] text-center pb-8 sm:pb-16 sm:mt-[-30px]">
         The urgent, brutally honest words of a remarkable man who changed many
         thousands of lives & inspired our work. His commitment, passion &
         humanity live on. In loving memory of Gary and his treasured son

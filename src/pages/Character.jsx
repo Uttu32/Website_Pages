@@ -27,7 +27,10 @@ const Character = () => {
           size="text-base sm:text-[25px] sm:leading-[35px] mb-4"
         />
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24 mt-6">
-          <NormalLinkText Style="text-base sm:text-2xl font-light sm:leading-[34px]">
+          <NormalLinkText
+            Style="text-base sm:text-2xl font-light sm:leading-[34px]"
+            animate
+          >
             Information for parents and caregivers who have completed the
             Character and Signature Strengths Survey. Adapted by
             Chromodiversity™ from{" "}
@@ -39,7 +42,11 @@ const Character = () => {
             observations might not match your own experience or child’s genetic
             variation.
           </NormalLinkText>
-          <div className="min-w-[443px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[443px]"
+          >
             <img src={Img1} alt="home-1" width={443} height={283} />
           </div>
         </div>

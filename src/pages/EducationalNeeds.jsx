@@ -23,7 +23,10 @@ const EducationalNeeds = () => {
           size="text-base sm:text-[25px] sm:leading-[35px] mb-4"
         />
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24 mt-6">
-          <NormalLinkText Style="text-base sm:text-2xl font-light sm:leading-[34px]">
+          <NormalLinkText
+            animate
+            Style="text-base sm:text-2xl font-light sm:leading-[34px]"
+          >
             Adapted by Chromodiversity™ from{" "}
             <span className="text-[#0F78C3] underline cursor-pointer">
               ‘I Wish the School Had a Better Understanding of the Diagnosis’:
@@ -34,7 +37,11 @@ const EducationalNeeds = () => {
             observations might not match your own experience or child’s genetic
             variation.
           </NormalLinkText>
-          <div className="min-w-[443px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[443px]"
+          >
             <img src={Img1} alt="home-1" width={443} height={283} />
           </div>
         </div>
@@ -42,24 +49,39 @@ const EducationalNeeds = () => {
           title="Even when there are no outward signs of differences, children with genetic variations often require a range of services within multiple systems of support, including but not limited to:"
           Style="text-base sm:text-[23px] font-medium sm:leading-[34px] my-4"
         />
-        <ListText text="Practical accommodations" Style="font-light" />
-        <ListText text="Special education" Style="font-light" />
-        <ListText text="Speech and occupational therapies" Style="font-light" />
-        <ListText text="Behavioral health supports" Style="font-light" />
-        <ListText text="Medical interventions" Style="font-light" />
+        <ListText
+          smallSize
+          text="Practical accommodations"
+          Style="font-light"
+        />
+        <ListText smallSize text="Special education" Style="font-light" />
+        <ListText
+          smallSize
+          text="Speech and occupational therapies"
+          Style="font-light"
+        />
+        <ListText
+          smallSize
+          text="Behavioral health supports"
+          Style="font-light"
+        />
+        <ListText smallSize text="Medical interventions" Style="font-light" />
         <Normal
           title="However, the first study to explore parent perspectives and priorities on the educational experiences of children with X and Y chromosome variations in the USA found that:"
           Style="text-base sm:text-[23px] font-medium sm:leading-[34px] my-4"
         />
         <ListText
+          smallSize
           text="Factors such as lack of knowledge about genetic variations act as barriers to learning."
           Style="font-light"
         />
         <ListText
+          smallSize
           text="There is a strong need for school-based social and emotional support."
           Style="font-light"
         />
         <ListText
+          smallSize
           text="Many educational support plans are elusive or incomplete."
           Style="font-light"
         />
@@ -97,20 +119,23 @@ const EducationalNeeds = () => {
           Style="text-base sm:text-2xl font-medium sm:leading-[34px] my-4"
         />
         <ListText
+          smallSize
           text="Educators lack knowledge about their child’s genetic difference."
           Style="font-light"
         />
         <ListText
+          smallSize
           text="Their opinions and expertise are ignored."
           Style="font-light"
         />
         <ListText
+          smallSize
           text="Feeling excluded from the educational decision-making process (Elbaum et al., 2016; Paz-   Lourido et al., 2020; Starr & Foy, 2012; Tucher & Schwartz, 2013)."
           Style="font-light"
         />
       </div>
       <BlockTitle title="WHAT TO DO" />
-      <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] ">
+      <div className="mx-0 min-[500px]:mx-[20px] md:mx-[70px] rounded-[10px] p-[20px] min-[500px]:p-[35px] sm:p-[50px] md:p-[90px] bg-[#fff4f6db] mb-20">
         <Normal
           title="Parent-school collaboration is especially important for children with a genetic diagnosis, particularly when a host of potential medical and neurodevelopmental features can impact a student’s wellbeing and success in school."
           Style="text-base sm:text-[23px] font-medium sm:leading-[34px] my-4"
@@ -140,7 +165,7 @@ const EducationalNeeds = () => {
         </NormalLinkText>
 
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-8 lg:gap-24 mt-6">
-          <div>
+          <div data-aos="flip-left" data-aos-duration="1000">
             <NormalLinkText Style="text-base sm:text-2xl font-normal sm:leading-[34px]">
               2.{" "}
               <span className="font-semibold ">
@@ -166,21 +191,28 @@ const EducationalNeeds = () => {
               lifelong, ongoing support (Hodge & Asoela, 2019).
             </NormalLinkText>
           </div>
-          <div className="min-w-[306px]">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            className="min-w-[306px]"
+          >
             <img src={Img2} alt="home-1" width={306} height={440} />
           </div>
         </div>
 
         <div className="sm:ml-5 ml-0">
           <ListText
+            smallSize
             text="Research shows that children with learning differences such as dyslexia or ADHD are often labeled by teachers and parents as ‘lazy’ or ‘unintelligent’, especially prior to a diagnosis (Glazzard, 2010; Lundin, 2020; Thompson et al., 2015)."
             Style="text-light"
           />
           <ListText
+            smallSize
             text="Specifying the genetic diagnosis in the special education plan might encourage a team to consider a student’s inattention, cognitive rigidity, fatigue, or trouble learning as part of a medical problem that warrants interventions and accommodations, rather than disobedience or a lack of motivation."
             Style="text-light"
           />
           <ListText
+            smallSize
             text="Highlighting the medical diagnosis on a child’s educational support plan could help qualify younger students for early preventative support and dissuade educational teams from discontinuing support when the student makes progress."
             Style="text-light"
           />
